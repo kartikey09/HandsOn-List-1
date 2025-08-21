@@ -5,6 +5,9 @@
 #include <ctype.h>
 #include <unistd.h>
 
+//	run the prog as "./2a &" to run the process in backgroud and to end the process
+//	use "kill <PID>" command to kill the process, find the PID using "ps -aur | grep 2a" command.
+
 int is_pid_folder(char* name){
 	for(int i = 0; name[i] != '\0'; i++){
 		if(!isdigit(name[i]))
