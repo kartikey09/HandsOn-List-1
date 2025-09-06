@@ -1,0 +1,8 @@
+
+this is the original content
+
+this is the dup() content
+
+this is the dup2() content
+
+this is the fcntl() content
